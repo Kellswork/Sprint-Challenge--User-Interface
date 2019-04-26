@@ -200,3 +200,50 @@ footer nav a {
 .middle-content .boxes .box10 {
     background-color: dodgerblue;
 }
+
+/* about page */
+.about-top-content {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+  
+
+}
+.about-middle {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    border-bottom: none;
+}
+.about-middle-content {
+width: 45%;
+padding-bottom: 10px;
+padding-top: 10px;
+border-bottom: 1px dashed;
+}
+.about-middle-content h3 {
+    padding-top: 20px;
+}
+
+.about-middle-content button {
+    height: 40px;
+    width: 115px;
+    border-radius: 7px;
+    font-size: 15px;
+    padding: 4px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+}
+
+.about-middle-content:nth-child(3), .about-middle-content:nth-child(4) {
+    padding-top: 40px;
+}
+.about-bottom {
+    padding-top: 40px;
+    display: block;
+    padding-bottom: 20px;
+}
