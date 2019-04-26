@@ -247,3 +247,9 @@ border-bottom: 1px dashed;
     display: block;
     padding-bottom: 20px;
 }
+.nav-links a {
+    transition: ease-in-out 400ms;
+}
+.nav-links a:hover {
+    color: lightgray;
+}
