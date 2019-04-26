@@ -144,3 +144,29 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* ... */
+.navbar {
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    width: 100%;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+.nav-logo {
+    width: 25%;
+    padding-top: 5px;
+}
+.nav-links {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+.nav-links a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.705);
+}
+.header-img {
+    padding-bottom: 20px;
+}
